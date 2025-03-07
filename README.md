@@ -1,5 +1,5 @@
 <h1 align="center">BloodPrint</h1>
-The code implements a deep learning model using PyTorch to classify blood groups from fingerprint images. It preprocesses data, defines a CNN-based classifier, trains the model, evaluates performance, and visualizes results. It also includes functions for model saving, predictions, and plotting accuracy/loss trends over epochs.
+The code implements a deep learning model using PyTorch to classify blood groups from fingerprint images. It preprocesses data, defines a CNN-based classifier, trains the model, evaluates performance, and visualizes results. It also includes functions for model saving, predictions, and plotting accuracy/loss trends over epochs
 
 ## Execeution Guide:
 
