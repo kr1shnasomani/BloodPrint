@@ -3,12 +3,13 @@
 ## Repository Structure:
 The following is the repository structure:
 ```
-code/
-├── PyTorch/
-│   └── custom.ipynb
-├── TensorFlow/
-│   ├── efficientnetb0.ipynb
-│   └── resnet50.ipynb
+BloodPrint/
+├── code/
+│   ├── PyTorch/
+│   │   └── custom.ipynb
+│   ├── TensorFlow/
+│   │   ├── efficientnetb0.ipynb
+│   │   └── resnet50.ipynb
 ├── README.md
 └── requirements.txt
 ```
