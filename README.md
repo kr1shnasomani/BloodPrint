@@ -5,14 +5,14 @@ This project detects blood groups from fingerprint images using deep learning mo
 The following is the repository structure:
 ```
 BloodPrint/
-├── dataset/
-│   └── Dataset.md
 ├── code/
 │   ├── PyTorch/
 │   │   └── custom.ipynb
-│   ├── TensorFlow/
-│   │   ├── efficientnetb0.ipynb
-│   │   └── resnet50.ipynb
+│   └── TensorFlow/
+│       ├── efficientnetb0.ipynb
+│       └── resnet50.ipynb
+├── dataset/
+│   └── Dataset.md
 ├── README.md
 └── requirements.txt
 ```
