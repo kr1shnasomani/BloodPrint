@@ -1,4 +1,7 @@
 <h1 align="center">BloodPrint</h1>
+<p align="center" style="margin-top:30px;">
+  <img src="https://github.com/user-attachments/assets/766cc9e1-6ab8-4bc8-82e8-c59d37135531" height="300cm"/>
+</p>
 This project detects blood groups from fingerprint images using deep learning models. It employs a custom PyTorch model alongside EfficientNetB0 and ResNet50 built with TensorFlow to enhance accuracy and performance. The system leverages fingerprint patterns to predict blood types efficiently.
 
 ## Repository Structure:
