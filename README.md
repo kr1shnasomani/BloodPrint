@@ -4,6 +4,22 @@
 </p>
 This project detects blood groups from fingerprint images using deep learning models. It employs a custom PyTorch model alongside EfficientNetB0 and ResNet50 built with TensorFlow to enhance accuracy and performance. The system leverages fingerprint patterns to predict blood types efficiently.
 
+## Execution Guide:
+1. Clone the repository:
+   ```
+   https://github.com/kr1shnasomani/BloodPrint.git
+   cd BloodPrint
+   ```
+
+2. Install the dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. Run the code and it will save a model with an extension:
+   - `.keras` for TensorFlow
+   - `.pth` for PyTorch
+
 ## Repository Structure:
 The following is the repository structure:
 ```
