@@ -7,7 +7,7 @@ This project detects blood groups from fingerprint images using deep learning mo
 ## Execution Guide:
 1. Clone the repository:
    ```
-   https://github.com/kr1shnasomani/BloodPrint.git
+   git clone https://github.com/kr1shnasomani/BloodPrint.git
    cd BloodPrint
    ```
 
