@@ -4,22 +4,6 @@
 </p>
 This project detects blood groups from fingerprint images using deep learning models. It employs a custom PyTorch model alongside EfficientNetB0 and ResNet50 built with TensorFlow to enhance accuracy and performance. The system leverages fingerprint patterns to predict blood types efficiently.
 
-## Execution Guide:
-1. Clone the repository:
-   ```
-   git clone https://github.com/kr1shnasomani/BloodPrint.git
-   cd BloodPrint
-   ```
-
-2. Install the dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. Run the code and it will save a model with an extension:
-   - `.keras` for TensorFlow
-   - `.pth` for PyTorch
-
 ## Repository Structure:
 The following is the repository structure:
 ```
@@ -45,10 +29,10 @@ BloodPrint/
 | Model Name     | Accuracy                                                                                  | Loss                                                                                      |
 |----------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | Custom         | ![image](https://github.com/user-attachments/assets/f3580af2-18dd-495f-b041-2ee27bb07b2f) | ![image](https://github.com/user-attachments/assets/9c210832-d85a-4fe7-9e7c-70ae395b4b1c) |
-| DenseNet121    | ![image](https://github.com/user-attachments/assets/ee1cb5ba-5cb7-4c32-8493-cfb9b05c2d47) | ![image](https://github.com/user-attachments/assets/fce80be6-c54d-40da-8fef-35b89561569e) |
+| DenseNet121    | ![image](https://github.com/user-attachments/assets/31dcabbf-91c1-4b69-8acf-b0f719521d06) | ![image](https://github.com/user-attachments/assets/2bb400f1-21e4-4a79-8202-881561614a77) |
 | EfficientNetB0 | ![image](https://github.com/user-attachments/assets/eb66a4bf-957a-49f8-a652-66c2872deb68) | ![image](https://github.com/user-attachments/assets/2d04d85b-23c9-4254-b744-d0e2eeb549f1) |
-| InceptionV3    | ![image](https://github.com/user-attachments/assets/ee1cb5ba-5cb7-4c32-8493-cfb9b05c2d47) | ![image](https://github.com/user-attachments/assets/fce80be6-c54d-40da-8fef-35b89561569e) |
-| MobileNetV2    | ![image](https://github.com/user-attachments/assets/ee1cb5ba-5cb7-4c32-8493-cfb9b05c2d47) | ![image](https://github.com/user-attachments/assets/fce80be6-c54d-40da-8fef-35b89561569e) |
+| InceptionV3    | ![image](https://github.com/user-attachments/assets/16b6a053-2228-49ed-9703-1a37328877f5) | ![image](https://github.com/user-attachments/assets/aefb4f17-d534-48d6-9490-ef4f13157230) |
+| MobileNetV2    | ![image](https://github.com/user-attachments/assets/bccf05c2-f19b-4028-a188-045d63b0b445) | ![image](https://github.com/user-attachments/assets/f64b66a6-1bb1-4ea3-9860-803ca2f46492) |
 | ResNet50       | ![image](https://github.com/user-attachments/assets/ee1cb5ba-5cb7-4c32-8493-cfb9b05c2d47) | ![image](https://github.com/user-attachments/assets/fce80be6-c54d-40da-8fef-35b89561569e) |
 | VGG16          | ![image](https://github.com/user-attachments/assets/762ce0de-8e9e-4dc8-a4d4-1b8de486c81c) | ![image](https://github.com/user-attachments/assets/789ad6d6-7be8-4c13-ba78-2fbbef904226) |
 
@@ -155,9 +139,9 @@ BloodPrint/
 |      Name      | Accuracy | Size (in MB) |
 |----------------|----------|--------------|
 | Custom         | 85%      | 74.4         |
-| DenseNet121    | 81%      | 98.3         |
+| DenseNet121    | 86%      | 231.4        |
 | EfficientNetB0 | 76%      | 19.1         |
-| InceptionV3    | 81%      | 98.3         |
-| MobileNetV2    | 81%      | 98.3         |
+| InceptionV3    | 79%      | 315.2        |
+| MobileNetV2    | 84%      | 261.7        |
 | ResNet50       | 81%      | 98.3         |
-| VGG16          | 81%      | 98.3         |
+| VGG16          | 85%      | 160          |
