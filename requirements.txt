@@ -1,0 +1,26 @@
+# Core ML/DL Frameworks
+torch>=1.9.0
+torchvision>=0.10.0
+tensorflow>=2.8.0
+keras>=2.8.0
+
+# Data Processing & Numerical Computing
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+
+# Image Processing
+pillow>=8.3.0
+opencv-python>=4.5.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Progress Bars & Utilities
+tqdm>=4.62.0
+jupyter>=1.0.0
+
+# Model Saving/Loading
+h5py>=3.1.0
+joblib>=1.1.0
